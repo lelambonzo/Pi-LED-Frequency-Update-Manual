@@ -1,6 +1,6 @@
     import RPi.GPIO as GPIO  
     import time  
-    # blinking function  
+    # blinking function.  
     def blink(pin):  
             GPIO.output(pin,GPIO.HIGH)  
             time.sleep(1)  
